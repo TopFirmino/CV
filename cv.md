@@ -20,6 +20,9 @@ Software engineer with experience in safety-critical embedded systems, real-time
 
 - Worked on high-profile projects as software architect, technical leader, and pre-sales technical contributor.
 - Acted as a focal point for safety-critical embedded systems, avionics software, and V&V activities.
+- Member of both the Software Center of Excellence and the GenAI Center of Excellence.
+- Supported colleagues and internal teams in the evaluation, adoption, and effective use of GenAI tools for engineering workflows.
+- Contributed to research and technical support activities around local LLMs, AI-assisted development, documentation automation, and productivity tooling.
 - Supported architecture definition, technical assessments, code quality improvements, and engineering process optimization.
 
 ### Embedded Software Engineer / Architect / Technical Lead - Base Software Platform
@@ -56,6 +59,17 @@ Software engineer with experience in safety-critical embedded systems, real-time
 - Implemented skirt-based geometry handling to reduce visible cracks between terrain chunks.
 - Worked within OpenGL SC constraints on PowerPC-based embedded avionics hardware.
 - Coordinated technical decisions, implementation activities, and integration concerns for the graphics component.
+
+### C-to-Pseudo-Language Transliterator Tool Developer
+*2024--2026 | Capgemini*
+
+**Tech Stack:** Python, Tree-sitter, ANTLR, custom grammars, source-to-source transformation, documentation automation.
+
+- Developed an internal transliteration tool to transform C code into a structured pseudo-language representation.
+- Used Python, Tree-sitter, ANTLR, and custom grammars to parse, analyze, and translate source-code constructs.
+- Supported internal documentation automation processes by reducing manual effort in code-to-documentation workflows.
+- Worked on grammar definition, syntax-tree processing, transformation rules, and output generation.
+- Improved repeatability and consistency of engineering documentation derived from C source code.
 
 ### Safety-Critical Ada Software Engineer - HF Radio Control
 *2024--2026 | Capgemini*
@@ -167,10 +181,11 @@ Software engineer with experience in safety-critical embedded systems, real-time
 
 **Languages:** C, C++, Python, Ada.  
 **Embedded / Platforms:** Embedded Linux, Xilinx Embedded Linux, PowerPC, ARM, STM32, NXP S32K358, ATmega2560, bare metal, FreeRTOS, IntegrityRTOS, AUTOSAR, ST SDK, DMA, GPIO, timers, CAN, CAN bus, UART, I2C, SPI, RS-485, AFDX, MIL-STD-1553.  
-**Graphics / Compute / AI:** OpenGL, OpenGL SC, Vulkan, ONNX, custom systolic-array accelerators, edge inference, LOD terrain rendering, LLMs, llama.cpp, MCP server, ArduPilot SITL, Webots, drone simulation.  
-**Tools:** Git, CMake, GitHub Actions, Docker, Jenkins, Linux, Windows, GDB, gcov, gprof, Valgrind, VectorCAST, Rapita RVS, IBM DOORS, Understand, Enterprise Architect, Tree-sitter, Protocol Buffers, Streamlit, pytest, pluggy, PostgreSQL, Angular, KiCad, EasyEDA.  
+**Graphics / Compute / AI:** OpenGL, OpenGL SC, Vulkan, ONNX, custom systolic-array accelerators, edge inference, LOD terrain rendering, LLMs, local LLM inference, llama.cpp, MCP server, LangChain, OpenCode, GenAI engineering tools, ArduPilot SITL, Webots, drone simulation.  
+**Parsing / Code Generation:** Tree-sitter, ANTLR, custom grammars, source-to-source transformation, C-to-pseudo-language transliteration, documentation automation.  
+**Tools:** Git, CMake, GitHub Actions, Docker, Jenkins, Linux, Windows, GDB, gcov, gprof, Valgrind, VectorCAST, Rapita RVS, IBM DOORS, Understand, Enterprise Architect, Protocol Buffers, Streamlit, pytest, pluggy, PostgreSQL, Angular, KiCad, EasyEDA.  
 **Standards / Quality:** DO-178C, MISRA C, AUTOSAR, V&V, requirements traceability, static analysis, unit testing, system testing, code review, documentation, test automation.  
-**Other:** REST APIs, database design, geospatial archives, internal tooling, automation, technical leadership, software architecture, pre-sales technical support.
+**Other:** REST APIs, database design, geospatial archives, internal tooling, automation, AI-assisted development, technical leadership, software architecture, pre-sales technical support.
 
 ## Languages
 
