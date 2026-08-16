@@ -26,6 +26,7 @@ $endif$
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{4pt}
 \renewcommand{\baselinestretch}{1.03}
+\setcounter{secnumdepth}{0}
 
 % Required by Pandoc for compact lists.
 \providecommand{\tightlist}{%
@@ -38,7 +39,7 @@ $endif$
   {\olditemize\setlength{\itemsep}{2pt}\setlength{\parskip}{0pt}\setlength{\parsep}{0pt}}
   {\endolditemize}
 
-% Modern section style without titlesec.
+% Modern heading style without titlesec and without numbering.
 \let\oldsection\section
 \renewcommand{\section}[1]{%
   \vspace{10pt}%
@@ -51,6 +52,13 @@ $endif$
 \let\oldsubsection\subsection
 \renewcommand{\subsection}[1]{%
   \vspace{7pt}%
+  {\normalsize\bfseries\color{TextMain}#1\par}%
+  \vspace{1pt}%
+}
+
+\let\oldsubsubsection\subsubsection
+\renewcommand{\subsubsection}[1]{%
+  \vspace{5pt}%
   {\normalsize\bfseries\color{TextMain}#1\par}%
   \vspace{1pt}%
 }
