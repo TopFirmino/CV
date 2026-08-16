@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "cv.md"
+      - "template.tex"
       - ".github/workflows/build-cv.yml"
   workflow_dispatch:
 
@@ -21,6 +22,7 @@ jobs:
           args: >-
             cv.md
             --standalone
+            --template=template.tex
             --pdf-engine=xelatex
             -o cv.pdf
 

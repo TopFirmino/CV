@@ -1,46 +1,61 @@
 ---
-title: "Curriculum Vitae"
-author: "Your Name"
-geometry: margin=1.5cm
-fontsize: 10pt
+name: "Your Name"
+role: "Embedded Software Engineer"
+location: "Italy"
+email: "email@example.com"
+phone: "+39 XXX XXX XXXX"
+linkedin: "linkedin.com/in/your-profile"
+github: "github.com/your-user"
+accentcolor: "0A66C2"
 ---
-
-# Your Name
-
-**Software Engineer**  
-City, Country · email@example.com · GitHub · LinkedIn
 
 ## Profile
 
-Short professional summary. Keep this section to 3–5 lines.
+Embedded/software engineer with experience in safety-critical systems, low-level C, real-time architectures, verification and tooling. Strong focus on robust design, readable code, and practical engineering trade-offs.
 
 ## Experience
 
-### Job Title — Company
+### Software Engineer / Architect — Company Name
 *2024–Present*
 
-- Main responsibility or achievement.
-- Main responsibility or achievement.
-- Main responsibility or achievement.
+- Designed and maintained embedded software components for real-time systems.
+- Worked on C/Python tooling, testing infrastructure, CI workflows and documentation.
+- Collaborated with hardware, systems and V&V teams to validate interfaces and requirements.
 
-### Previous Job Title — Company
+### Embedded Software Engineer — Previous Company
 *2021–2024*
 
-- Main responsibility or achievement.
-- Main responsibility or achievement.
+- Developed low-level software in C for microcontroller-based products.
+- Integrated peripherals, communication interfaces and hardware abstraction layers.
+- Improved debugging, traceability and maintainability of the codebase.
 
-## Skills
+## Technical Skills
 
-**Languages:** C, C++, Python  
-**Embedded:** STM32, RTOS, bare metal  
-**Tools:** Git, CMake, CI/CD
+**Languages:** C, C++, Python, Ada  
+**Embedded:** STM32, bare metal, RTOS, timers, UART, I2C, SPI, PWM  
+**Tools:** Git, CMake, GitHub Actions, Linux, Windows  
+**Quality:** MISRA C, testing, code review, static analysis, documentation
+
+## Selected Projects
+
+### Motor Control Board
+
+- Designed firmware architecture for a 24 V motor-control board.
+- Managed encoder inputs, motor drivers, timers and hardware/software integration concerns.
+
+### Embedded Test Framework
+
+- Built a test framework for embedded platforms with reusable test cases and tooling.
+- Explored dynamic loading, scripting and host-side automation strategies.
 
 ## Education
 
-### Degree — University
+### Degree — University Name
 *Year*
+
+Relevant coursework, thesis or specialization.
 
 ## Languages
 
-- Italian — Native
-- English — Professional
+**Italian:** Native  
+**English:** Professional

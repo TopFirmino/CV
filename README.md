@@ -1,25 +1,46 @@
 # CV
 
-Simple Markdown → PDF CV workflow.
+Modern Markdown → PDF CV workflow based on Pandoc and GitHub Actions.
 
-## Edit from your phone
+## How to edit from your phone
 
 1. Open `cv.md` on GitHub.
 2. Tap **Edit**.
-3. Change the content.
+3. Change the text.
 4. Commit the change.
-5. Open the **Actions** tab.
-6. Open the latest `Build CV` run.
-7. Download the `cv-pdf` artifact.
+5. Open **Actions → Build CV**.
+6. Download the `cv-pdf` artifact from the latest successful run.
 
-You can also run the build manually from:
+## Main files
 
-**Actions → Build CV → Run workflow**
+```text
+cv.md
+template.tex
+.github/workflows/build-cv.yml
+```
 
-## Local build
+## Change the accent color
 
-If you have Docker installed:
+Edit this line in `cv.md`:
+
+```yaml
+accentcolor: "0A66C2"
+```
+
+Examples:
+
+```yaml
+accentcolor: "0A66C2" # blue
+accentcolor: "2563EB" # modern blue
+accentcolor: "059669" # green
+accentcolor: "7C3AED" # purple
+accentcolor: "DC2626" # red
+accentcolor: "EA580C" # orange
+```
+
+## Local build with Docker
 
 ```bash
-docker run --rm -v "$PWD:/data" pandoc/latex:latest   cv.md --standalone --pdf-engine=xelatex -o cv.pdf
+docker run --rm -v "$PWD:/data" pandoc/latex:latest \
+  cv.md --standalone --template=template.tex --pdf-engine=xelatex -o cv.pdf
 ```
