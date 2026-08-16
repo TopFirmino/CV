@@ -1,9 +1,9 @@
 ---
-name: "Your Name"
+name: "Lorenzo Furcas"
 role: "Embedded Software Engineer"
 location: "Italy"
-email: "email@example.com"
-phone: "+39 XXX XXX XXXX"
+email: "furcas.lorenzo@gmail.com"
+phone: "+39 3519599327"
 linkedin: "linkedin.com/in/your-profile"
 github: "github.com/your-user"
 accentcolor: "0A66C2"
