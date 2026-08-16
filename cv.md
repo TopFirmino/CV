@@ -15,8 +15,11 @@ Software engineer with experience in safety-critical embedded systems, real-time
 
 ## Experience
 
-### Software Engineer / Center of Excellence Member - Capgemini Engineering
-*2024--Present | Capgemini Engineering*
+### Capgemini / Capgemini Engineering
+*2020--Present*
+
+#### 1. Software / GenAI Center of Excellence Member
+*2024--Present*
 
 - Worked on high-profile projects as software architect, technical leader, and pre-sales technical contributor.
 - Acted as a focal point for safety-critical embedded systems, avionics software, and V&V activities.
@@ -25,8 +28,8 @@ Software engineer with experience in safety-critical embedded systems, real-time
 - Contributed to research and technical support activities around local LLMs, AI-assisted development, documentation automation, and productivity tooling.
 - Supported architecture definition, technical assessments, code quality improvements, and engineering process optimization.
 
-### Embedded Software Engineer / Architect / Technical Lead - Base Software Platform
-*2025--Present | Capgemini*
+#### 2. Embedded Software Engineer / Architect / Technical Lead - Base Software Platform
+*2025--Present*
 
 **Tech Stack:** NXP S32K358, AUTOSAR, MISRA C, UML, Python.
 
@@ -37,8 +40,8 @@ Software engineer with experience in safety-critical embedded systems, real-time
 - Directed Verification & Validation activities to improve test coverage, traceability, and system reliability.
 - Designed and developed internal software utilities to automate workflows and improve team productivity.
 
-### Deep Learning Compiler Toolchain Developer - Custom Edge AI Accelerator
-*2025--2026 | Capgemini*
+#### 3. Deep Learning Compiler Toolchain Developer - Custom Edge AI Accelerator
+*2025--2026*
 
 **Tech Stack:** Python, C, ONNX, Protocol Buffers, Tree-sitter, Streamlit, DMA, Xilinx Embedded Linux.
 
@@ -49,8 +52,8 @@ Software engineer with experience in safety-critical embedded systems, real-time
 - Developed Streamlit-based tooling to support visualization, debugging, and workflow automation.
 - Worked with Xilinx embedded Linux environments and DMA-based data movement for accelerator integration.
 
-### Technical Lead - Synthetic Vision Terrain Algorithm
-*2025 | Capgemini*
+#### 4. Technical Lead - Synthetic Vision Terrain Algorithm
+*2025*
 
 **Tech Stack:** C, OpenGL SC, PowerPC, embedded graphics, safety-critical avionics.
 
@@ -60,8 +63,8 @@ Software engineer with experience in safety-critical embedded systems, real-time
 - Worked within OpenGL SC constraints on PowerPC-based embedded avionics hardware.
 - Coordinated technical decisions, implementation activities, and integration concerns for the graphics component.
 
-### C-to-Pseudo-Language Transliterator Tool Developer
-*2024--2026 | Capgemini*
+#### 5. C-to-Pseudo-Language Transliterator Tool Developer
+*2024--2026*
 
 **Tech Stack:** Python, Tree-sitter, ANTLR, custom grammars, source-to-source transformation, documentation automation.
 
@@ -71,8 +74,8 @@ Software engineer with experience in safety-critical embedded systems, real-time
 - Worked on grammar definition, syntax-tree processing, transformation rules, and output generation.
 - Improved repeatability and consistency of engineering documentation derived from C source code.
 
-### Safety-Critical Ada Software Engineer - HF Radio Control
-*2024--2026 | Capgemini*
+#### 6. Safety-Critical Ada Software Engineer - HF Radio Control
+*2024--2026*
 
 **Tech Stack:** Ada, avionics systems, safety-critical software, V&V.
 
@@ -81,8 +84,8 @@ Software engineer with experience in safety-critical embedded systems, real-time
 - Supported integration, debugging, verification, and documentation activities.
 - Worked with safety-critical development constraints, traceability needs, and formal engineering processes.
 
-### Naval CMS HMI Software Engineer - Radar Data Visualization
-*2023 | Capgemini*
+#### 7. Naval CMS HMI Software Engineer - Radar Data Visualization
+*2023*
 
 **Tech Stack:** C++, Linux, OpenGL, naval CMS, HMI development.
 
@@ -91,8 +94,8 @@ Software engineer with experience in safety-critical embedded systems, real-time
 - Worked on Linux-based graphical applications with real-time operational data representation.
 - Supported the integration and refinement of user interface components for naval domain use cases.
 
-### Test Automation and Quality Tools Engineer - Spatial Search Algorithms
-*2023 | Capgemini*
+#### 8. Test Automation and Quality Tools Engineer - Spatial Search Algorithms
+*2023*
 
 **Tech Stack:** Python, test automation, quality tooling, ball tree, kd-tree.
 
@@ -101,8 +104,8 @@ Software engineer with experience in safety-critical embedded systems, real-time
 - Improved repeatability, maintainability, and quality control of algorithm verification workflows.
 - Contributed to internal tooling used to analyze test outcomes and support engineering decisions.
 
-### Safety-Critical Algorithm Developer - Embedded Multicore Platform
-*2023 | Capgemini*
+#### 9. Safety-Critical Algorithm Developer - Embedded Multicore Platform
+*2023*
 
 **Tech Stack:** C, embedded multicore, safety-critical software, kd-tree, ball tree.
 
@@ -111,8 +114,8 @@ Software engineer with experience in safety-critical embedded systems, real-time
 - Considered deterministic behavior, memory usage, performance, and integration constraints.
 - Supported verification, debugging, and code quality activities for algorithmic software components.
 
-### Verification & Validation Engineer - Avionics Base Platform
-*2020--2023 | Capgemini*
+#### 10. Verification & Validation Engineer - Avionics Base Platform
+*2020--2023*
 
 **Tech Stack:** V&V, avionics software, safety-critical systems, test design, requirements traceability.
 
@@ -122,8 +125,11 @@ Software engineer with experience in safety-critical embedded systems, real-time
 - Managed traceability between requirements, tests, procedures, and results.
 - Contributed to issue analysis, regression testing, documentation, and certification-oriented evidence collection.
 
-### Embedded Software Engineer - Industrial Control Units
-*2019--2020 | Tag srl*
+### Tag srl
+*2019--2020*
+
+#### 1. Embedded Software Engineer - Industrial Control Units
+*2019--2020*
 
 **Tech Stack:** C, ATmega2560, RS-485, CAN bus, industrial control units, food-packaging machinery.
 
