@@ -1,0 +1,32 @@
+name: Build CV
+
+on:
+  push:
+    paths:
+      - "cv.md"
+      - ".github/workflows/build-cv.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Build PDF with Pandoc + LaTeX
+        uses: docker://pandoc/latex:latest
+        with:
+          args: >-
+            cv.md
+            --standalone
+            --pdf-engine=xelatex
+            -o cv.pdf
+
+      - name: Upload CV PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-pdf
+          path: cv.pdf
+          retention-days: 30
