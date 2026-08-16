@@ -18,7 +18,6 @@ Software engineer with experience in safety-critical embedded systems, real-time
 ### Software Engineer / Center of Excellence Member - Capgemini Engineering
 *2024--Present*
 
-- Member of the Capgemini Italy Software Center of Excellence.
 - Worked on high-profile projects as software architect, technical leader, and pre-sales technical contributor.
 - Acted as a focal point for safety-critical embedded systems, avionics software, and V&V activities.
 - Supported architecture definition, technical assessments, code quality improvements, and engineering process optimization.
@@ -112,7 +111,7 @@ Software engineer with experience in safety-critical embedded systems, real-time
 ## Technical Skills
 
 **Languages:** C, C++, Python, Ada.  
-**Embedded / Platforms:** Embedded Linux, PowerPC, ARM, STM32, NXP S32K358, bare metal, RTOS, AUTOSAR, DMA, CAN, UART, I2C, SPI, RS-485, AFDX, MIL-STD-1553.  
+**Embedded / Platforms:** Embedded Linux, PowerPC, ARM, STM32, NXP S32K358, bare metal, FreeRTOS, IntegrityRTOS, AUTOSAR, DMA, CAN, UART, I2C, SPI, RS-485, AFDX, MIL-STD-1553.  
 **Graphics / Compute:** OpenGL, OpenGL SC, Vulkan, ONNX, custom systolic-array accelerators, edge inference.  
 **Tools:** Git, CMake, GitHub Actions, Docker, Jenkins, Linux, Windows, GDB, gcov, gprof, Valgrind, VectorCAST, Rapita RVS, IBM DOORS, Understand, Enterprise Architect, Tree-sitter, Protocol Buffers, Streamlit, pytest, PostgreSQL.  
 **Standards / Quality:** DO-178C, MISRA C, AUTOSAR, V&V, requirements traceability, static analysis, unit testing, system testing, code review, documentation.  
@@ -132,10 +131,11 @@ Software engineer with experience in safety-critical embedded systems, real-time
 
 ## Education
 
-### Degree - University Name
-*Year*
+### Ingegneria Informatica - Uninettuno
+*2025*
 
-Relevant coursework, thesis, or specialization.
+Thesys: 
+
 
 ## Languages
 
