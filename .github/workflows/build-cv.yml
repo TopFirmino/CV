@@ -23,7 +23,7 @@ jobs:
             cv.md
             --standalone
             --template=template.tex
-            --pdf-engine=xelatex
+            --pdf-engine=pdflatex
             -o cv.pdf
 
       - name: Upload CV PDF

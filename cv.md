@@ -16,14 +16,14 @@ Embedded/software engineer with experience in safety-critical systems, low-level
 ## Experience
 
 ### Software Engineer / Architect — Company Name
-*2024–Present*
+*2024--Present*
 
 - Designed and maintained embedded software components for real-time systems.
 - Worked on C/Python tooling, testing infrastructure, CI workflows and documentation.
 - Collaborated with hardware, systems and V&V teams to validate interfaces and requirements.
 
 ### Embedded Software Engineer — Previous Company
-*2021–2024*
+*2021--2024*
 
 - Developed low-level software in C for microcontroller-based products.
 - Integrated peripherals, communication interfaces and hardware abstraction layers.

@@ -2,7 +2,7 @@
 
 Modern Markdown → PDF CV workflow based on Pandoc and GitHub Actions.
 
-This version intentionally avoids LaTeX packages such as `titlesec` and `enumitem`, because they may be missing from the default `pandoc/latex:latest` Docker image.
+This version uses `pdflatex` instead of `xelatex` and avoids `fontspec`, `titlesec`, and other extra LaTeX packages. It is intended to work better with the minimal `pandoc/latex:latest` Docker image.
 
 ## Edit from your phone
 

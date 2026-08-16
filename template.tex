@@ -1,11 +1,10 @@
 \documentclass[$if(fontsize)$$fontsize$$else$10pt$endif$,a4paper]{article}
 
 \usepackage[a4paper,margin=1.35cm]{geometry}
-\usepackage{fontspec}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage{xcolor}
 \usepackage{hyperref}
-
-\setmainfont{Latin Modern Sans}
 
 $if(accentcolor)$
 \definecolor{Accent}{HTML}{$accentcolor$}
@@ -28,7 +27,11 @@ $endif$
 \setlength{\parskip}{4pt}
 \renewcommand{\baselinestretch}{1.03}
 
-% Compact lists without enumitem.
+% Required by Pandoc for compact lists.
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{2pt}\setlength{\parskip}{0pt}}
+
+% Compact lists without extra packages.
 \let\olditemize\itemize
 \let\endolditemize\enditemize
 \renewenvironment{itemize}
