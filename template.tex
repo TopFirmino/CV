@@ -42,6 +42,15 @@ $endif$
 % Modern heading style without titlesec and without numbering.
 \let\oldsection\section
 \renewcommand{\section}[1]{%
+  \vspace{12pt}%
+  {\LARGE\bfseries\color{Accent}#1\par}%
+  \vspace{3pt}%
+  {\color{RuleLight}\hrule height 0.8pt}%
+  \vspace{6pt}%
+}
+
+\let\oldsubsection\subsection
+\renewcommand{\subsection}[1]{%
   \vspace{10pt}%
   {\Large\bfseries\color{Accent}#1\par}%
   \vspace{2pt}%
@@ -49,17 +58,17 @@ $endif$
   \vspace{5pt}%
 }
 
-\let\oldsubsection\subsection
-\renewcommand{\subsection}[1]{%
-  \vspace{7pt}%
-  {\normalsize\bfseries\color{TextMain}#1\par}%
+\let\oldsubsubsection\subsubsection
+\renewcommand{\subsubsection}[1]{%
+  \vspace{8pt}%
+  {\large\bfseries\color{TextMain}#1\par}%
   \vspace{1pt}%
 }
 
-\let\oldsubsubsection\subsubsection
-\renewcommand{\subsubsection}[1]{%
-  \vspace{5pt}%
-  {\normalsize\bfseries\color{TextMain}#1\par}%
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{%
+  \vspace{6pt}%
+  {\normalsize\bfseries\color{Accent}#1\par}%
   \vspace{1pt}%
 }
 
