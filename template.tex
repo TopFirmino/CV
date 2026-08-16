@@ -3,13 +3,7 @@
 \usepackage[a4paper,margin=1.35cm]{geometry}
 \usepackage{fontspec}
 \usepackage{xcolor}
-\usepackage{titlesec}
-\usepackage{enumitem}
 \usepackage{hyperref}
-\usepackage{parskip}
-\usepackage{tabularx}
-\usepackage{array}
-\usepackage{ragged2e}
 
 \setmainfont{Latin Modern Sans}
 
@@ -32,29 +26,30 @@ $endif$
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{4pt}
-\renewcommand{\arraystretch}{1.08}
+\renewcommand{\baselinestretch}{1.03}
 
-\titleformat{\section}
-  {\Large\bfseries\color{Accent}}
-  {}
-  {0pt}
-  {}
-  [\vspace{-3pt}{\color{RuleLight}\titlerule[0.6pt]}]
+% Compact lists without enumitem.
+\let\olditemize\itemize
+\let\endolditemize\enditemize
+\renewenvironment{itemize}
+  {\olditemize\setlength{\itemsep}{2pt}\setlength{\parskip}{0pt}\setlength{\parsep}{0pt}}
+  {\endolditemize}
 
-\titleformat{\subsection}
-  {\normalsize\bfseries\color{TextMain}}
-  {}
-  {0pt}
-  {}
+% Modern section style without titlesec.
+\let\oldsection\section
+\renewcommand{\section}[1]{%
+  \vspace{10pt}%
+  {\Large\bfseries\color{Accent}#1\par}%
+  \vspace{2pt}%
+  {\color{RuleLight}\hrule height 0.6pt}%
+  \vspace{5pt}%
+}
 
-\titlespacing*{\section}{0pt}{10pt}{5pt}
-\titlespacing*{\subsection}{0pt}{7pt}{1pt}
-
-\setlist[itemize]{
-  leftmargin=1.1em,
-  itemsep=2pt,
-  topsep=2pt,
-  parsep=0pt
+\let\oldsubsection\subsection
+\renewcommand{\subsection}[1]{%
+  \vspace{7pt}%
+  {\normalsize\bfseries\color{TextMain}#1\par}%
+  \vspace{1pt}%
 }
 
 \newcommand{\cvname}[1]{
@@ -75,7 +70,7 @@ $endif$
 \begin{document}
 \color{TextMain}
 
-\begin{minipage}[t]{0.69\linewidth}
+\begin{minipage}[t]{0.67\linewidth}
 $if(name)$
   \cvname{$name$}
 $else$
@@ -87,7 +82,7 @@ $if(role)$
 $endif$
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.28\linewidth}
+\begin{minipage}[t]{0.30\linewidth}
 \raggedleft
 {\small
 $if(location)$\textcolor{TextMuted}{$location$}\\$endif$
