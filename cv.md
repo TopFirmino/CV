@@ -11,7 +11,7 @@ accentcolor: "0A66C2"
 
 ## Profile
 
-Software engineer with experience in safety-critical embedded systems, real-time architectures, verification and validation, graphics, tooling, and embedded AI workflows. Strong background in low-level C, Ada, Python automation, avionics software, embedded Linux, microcontrollers, and multicore platforms. Focused on robust architectures, maintainable code, and practical engineering trade-offs.
+Software engineer with experience in safety-critical embedded systems, real-time architectures, verification and validation, graphics, tooling, and embedded AI workflows. Strong background in low-level C, Ada, Python automation, avionics software, embedded Linux, microcontrollers, and multicore platforms.
 
 ## Experience
 
