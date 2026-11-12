@@ -1,6 +1,6 @@
 ---
 name: "Lorenzo Furcas"
-role: "Software Architect Engineer"
+role: "Software Architect"
 location: "Italy"
 email: "furcas.lorenzo@gmail.com"
 phone: "+39 3519599327"
