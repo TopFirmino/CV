@@ -5,7 +5,6 @@ location: "Italy"
 email: "furcas.lorenzo@gmail.com"
 phone: "+39 3519599327"
 linkedin: "linkedin.com/in/lorenzo-furcas-344652205"
-github: "github.com/TopFirmino"
 accentcolor: "0A66C2"
 ---
 
@@ -139,6 +138,16 @@ Software architect with experience in safety-critical embedded systems, real-tim
 - Supported debugging, integration, and validation activities on embedded hardware used in industrial automation contexts.
 
 ## Education
+
+### Bachelor's Degree in Computer Engineering - Uninettuno
+*2025*
+
+**Thesis:** Use of Large Language Models for autonomous drone piloting.
+
+- Studied the use of LLMs as a natural-language and voice-based support layer for drone piloting and autonomous control.
+- Developed a simulation environment based on ArduPilot SITL and Webots.
+- Integrated an MCP server and llama.cpp for local inference experiments.
+- Explored how natural-language commands can be translated into mission-level actions and autonomous drone-control support.
 
 ### Bachelor's Degree in Computer Engineering - Uninettuno
 *2025*
