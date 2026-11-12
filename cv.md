@@ -149,15 +149,10 @@ Software architect with experience in safety-critical embedded systems, real-tim
 - Integrated an MCP server and llama.cpp for local inference experiments.
 - Explored how natural-language commands can be translated into mission-level actions and autonomous drone-control support.
 
-### Bachelor's Degree in Computer Engineering - Uninettuno
-*2025*
+### Former student of Electronic Engineering - Uniroma2
+*2014 - 2018*
 
-**Thesis:** Use of Large Language Models for autonomous drone piloting.
-
-- Studied the use of LLMs as a natural-language and voice-based support layer for drone piloting and autonomous control.
-- Developed a simulation environment based on ArduPilot SITL and Webots.
-- Integrated an MCP server and llama.cpp for local inference experiments.
-- Explored how natural-language commands can be translated into mission-level actions and autonomous drone-control support.
+** Abandoned during 3° year 2° semester **
 
 ## Personal Projects
 
