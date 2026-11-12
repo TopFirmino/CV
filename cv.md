@@ -1,6 +1,6 @@
 ---
 name: "Lorenzo Furcas"
-role: "Embedded Software Engineer"
+role: "Software Architect Engineer"
 location: "Italy"
 email: "furcas.lorenzo@gmail.com"
 phone: "+39 3519599327"
@@ -11,7 +11,7 @@ accentcolor: "0A66C2"
 
 ## Profile
 
-Software engineer with experience in safety-critical embedded systems, real-time architectures, verification and validation, graphics, tooling, and embedded AI workflows. Strong background in low-level C, Ada, Python automation, avionics software, embedded Linux, microcontrollers, and multicore platforms.
+Software architect with experience in safety-critical embedded systems, real-time architectures, verification and validation, graphics, tooling, and embedded AI workflows. Strong background in low-level C, Ada, Python automation, avionics software, embedded Linux, microcontrollers, and multicore platforms.
 
 ## Experience
 
@@ -31,7 +31,7 @@ Software engineer with experience in safety-critical embedded systems, real-time
 #### 2. Embedded Software Engineer / Architect / Technical Lead - Base Software Platform
 *2025--Present*
 
-**Tech Stack:** NXP S32K358, AUTOSAR, MISRA C, UML, Python.
+**Tech Stack:** NXP S32K358, MISRA C, UML, Python.
 
 - Led the design and development of a base software platform, including the Microcontroller Abstraction Layer (uCAL) and Hardware Abstraction Layer (HAL) for the NXP S32K358 MCU.
 - Implemented a zero-copy UDP/IP networking stack leveraging DMA, alongside a proprietary system monitoring protocol.
